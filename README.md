@@ -1,3 +1,3 @@
-# sb1-ynhpsy
+# MindFulSpace
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/Dev-Aditya-More/sb1-ynhpsy)
+Something that you wanted from so long! this web application will make coping mental breakdown a breeze!
