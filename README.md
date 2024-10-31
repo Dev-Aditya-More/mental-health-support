@@ -9,9 +9,9 @@ Something that you needed from so long! this web application will make coping me
 
 ## Screenshots
 
-![P1](https://github.com/Dev-Aditya-More/mental-health-support/blob/main/P1.png)  
-![P2](https://github.com/Dev-Aditya-More/mental-health-support/blob/main/P2.png)  
-![P3](https://github.com/Dev-Aditya-More/mental-health-support/blob/main/P3.png)
+<img src="P1.png" alt="Screenshot1" width="500">
+<img src="P2.png" alt="Screenshot2" width="500">
+<img src="P3.png" alt="Screenshot3" width="500">
 
 
 ## ScreenRecording
