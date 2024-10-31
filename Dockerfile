@@ -1,6 +1,5 @@
-FROM node:20-alpine AS builder
+FROM node:20-alpine as builder
 
-# Set working directory
 WORKDIR /app
 
 # Copy package files
@@ -15,14 +14,17 @@ COPY . .
 # Build the application
 RUN npm run build
 
-# Stage 2: Serve the built application using a lightweight server
-FROM nginx:stable-alpine AS production
+# Production stage
+FROM nginx:alpine
 
-# Copy built application from the builder stage to the Nginx web root
-COPY --from=builder /app/build /usr/share/nginx/html
+# Copy built assets from builder stage
+COPY --from=builder /app/dist /usr/share/nginx/html
+
+# Copy nginx configuration
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # Expose port 80
 EXPOSE 80
 
-# Start Nginx server
+# Start nginx
 CMD ["nginx", "-g", "daemon off;"]
