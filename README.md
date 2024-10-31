@@ -1,5 +1,3 @@
-# MindFulSpace
-
 Something that you needed from so long! this web application will make coping mental issue a breeze!
 
 ## Live Demo
@@ -9,9 +7,13 @@ Something that you needed from so long! this web application will make coping me
 
 ## Screenshots
 
-<img src="P1.png" alt="Screenshot1" width="500">
-<img src="P2.png" alt="Screenshot2" width="500">
-<img src="P3.png" alt="Screenshot3" width="500">
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="P1.png" alt="Screenshot 1" width="45%" style="margin: 5px;">
+    <img src="P4.png" alt="Screenshot 1" width="45%" style="margin: 5px;">
+    <img src="P2.png" alt="Screenshot 2" width="45%" style="margin: 5px;">
+    <img src="P3.png" alt="Screenshot 3" width="45%" style="margin: 5px;">
+</div>
+
 
 
 ## ScreenRecording
