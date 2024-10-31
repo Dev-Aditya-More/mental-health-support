@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
-import { Heart, Brain, Users, BookOpen, Moon, Sun, Menu } from 'lucide-react';
+import { Heart, Brain, Users, BookOpen, Moon, Sun, Menu, MessageCircle } from 'lucide-react';
 import MoodTracker from './components/MoodTracker';
 import Resources from './components/Resources';
 import Community from './components/Community';
+import ChatBot from './components/ChatBot';
 import Navbar from './components/Navbar';
 
 function App() {
   const [activeTab, setActiveTab] = useState('mood');
   const [theme, setTheme] = useState('light');
+  const [showChat, setShowChat] = useState(false);
 
   const toggleTheme = () => {
     setTheme(theme === 'light' ? 'dark' : 'light');
@@ -22,6 +24,19 @@ function App() {
         {activeTab === 'resources' && <Resources theme={theme} />}
         {activeTab === 'community' && <Community theme={theme} />}
       </main>
+
+      <button
+        onClick={() => setShowChat(!showChat)}
+        className="fixed bottom-6 right-6 p-4 bg-purple-600 text-white rounded-full shadow-lg hover:bg-purple-700 transition-all"
+      >
+        <MessageCircle className="h-6 w-6" />
+      </button>
+
+      {showChat && (
+        <div className="fixed bottom-24 right-6 w-96 z-50">
+          <ChatBot theme={theme} />
+        </div>
+      )}
     </div>
   );
 }
