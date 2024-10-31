@@ -2,6 +2,11 @@
 
 Something that you needed from so long! this web application will make coping mental issue a breeze!
 
+## Live Demo
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen)](https://mental-health-support.vercel.app/)
+
+
 ## Screenshots
 
 ![P1](https://github.com/Dev-Aditya-More/mental-health-support/blob/main/P1.png)  
