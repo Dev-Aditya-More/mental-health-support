@@ -18,4 +18,4 @@ Something that you needed from so long! this web application will make coping me
 
 ## ScreenRecording
 
-![Here](https://github.com/Dev-Aditya-More/mental-health-support/blob/main/Recording%20.mp4) or ![Youtube Link](https://youtu.be/A-oHKn-2VuI?si=oU3Z2I2bAFoHrczm)
+![Here](https://github.com/Dev-Aditya-More/mental-health-support/blob/main/Recording%20.mp4) or [Youtube Link](https://youtu.be/A-oHKn-2VuI?si=oU3Z2I2bAFoHrczm)
